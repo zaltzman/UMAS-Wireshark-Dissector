@@ -1,6 +1,8 @@
 --[[
     lua wireshark addon for the UMAS embeded MODBUS protocol 
 	Modified by Amir Zaltzman
+	Based on the research "From Pass-the-Hash to Code Execution on Schneider Electric M340 PLCs," presented at Black Hat Europe 2024.  
+	https://www.blackhat.com/eu-24/briefings/schedule/#from-pass-the-hash-to-code-execution-on-schneider-electric-m340-plcs-42573
     Originally created by biero-el-corridor
 --]]
 
