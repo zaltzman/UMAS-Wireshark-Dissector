@@ -16,6 +16,7 @@ This dissector is based on the research "[From Pass-the-Hash to Code Execution o
 ## Usage
 
 Add the [Lua script](https://raw.githubusercontent.com/zaltzman/UMAS-Wireshark-Dissector/refs/heads/main/umas-wireshark-dissector.lua) file to Wireshark default plugins folder:
+
 *Windows:*
 ```sh
 C:\Program Files\Wireshark\plugins\
