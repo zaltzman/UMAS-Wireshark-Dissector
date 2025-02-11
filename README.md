@@ -99,6 +99,7 @@ Filtering response messages associated with UMAS function 0x50 request messages:
 ![UMAS_public_responses_filtering_example](https://raw.githubusercontent.com/zaltzman/UMAS-Wireshark-Dissector/refs/heads/main/Images/umas12.png)
 ## References
 "From Pass-the-Hash to Code Execution on Schneider Electric M340 PLCs":
+
 [Presentation slides](https://i.blackhat.com/EU-24/Presentations/EU-24-Zaltzman-From-Pass-the-Hash-to-Code-Execution.pdf)
 
 [White paper](https://i.blackhat.com/EU-24/Presentations/EU-24-Zaltzman-From-Pass-the-Hash-to-Code-Execution-wp.pdf)
