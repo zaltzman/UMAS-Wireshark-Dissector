@@ -15,7 +15,7 @@ This dissector is based on the research "[From Pass-the-Hash to Code Execution o
 
 ## Usage
 
-Add the [Lua script](https://raw.githubusercontent.com/zaltzman/UMAS-Wireshark-Dissector/refs/heads/main/Images/umas-wireshark-dissector.lua) file to Wireshark default plugins folder:
+Add the [Lua script](https://raw.githubusercontent.com/zaltzman/UMAS-Wireshark-Dissector/refs/heads/main/umas-wireshark-dissector.lua) file to Wireshark default plugins folder:
 *Windows:*
 ```sh
 C:\Program Files\Wireshark\plugins\
@@ -72,11 +72,11 @@ UMAS public messages are the default messages exchanged between the engineering 
 #### Request public message structure
 ![UMAS_public_request_structure](https://raw.githubusercontent.com/zaltzman/UMAS-Wireshark-Dissector/refs/heads/main/Images/umas2.png)
 Example:
-![UMAS_public_request_example](https://raw.githubusercontent.com/zaltzman/UMAS-Wireshark-Dissector/refs/heads/main/Images/umas6.png?token=GHSAT0AAAAAAC6VEARZPXSGBOPGAP2JU4QAZ5KNOKQ)
+![UMAS_public_request_example](https://raw.githubusercontent.com/zaltzman/UMAS-Wireshark-Dissector/refs/heads/main/Images/umas6.png)
 #### Respone public message structure
 ![UMAS_public_response_structure](https://raw.githubusercontent.com/zaltzman/UMAS-Wireshark-Dissector/refs/heads/main/Images/umas3.png)
 Example:
-![UMAS_public_response_example](https://raw.githubusercontent.com/zaltzman/UMAS-Wireshark-Dissector/refs/heads/main/Images/umas7.png?token=GHSAT0AAAAAAC6VEARYON2KGO2KJEN4PORUZ5KNRMQ)
+![UMAS_public_response_example](https://raw.githubusercontent.com/zaltzman/UMAS-Wireshark-Dissector/refs/heads/main/Images/umas7.png)
 ### UMAS reserved messages
 UMAS reserved messages are privileged messages exchanged after the authentication process between the engineering station and the PLC. The latest UMAS protocol includes cryptographic **signature** in these messages (a feature not handled in the original dissector).
 #### Request reserved message structure
